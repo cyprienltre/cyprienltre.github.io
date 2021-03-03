@@ -1,0 +1,166 @@
+p{
+    visibility: hidden;
+}
+
+.bloc_body {
+    margin:0;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.a_ct {
+    text-decoration:none;
+    color:black;
+}
+
+.bloc_shop_logo,.bloc_operation,.bloc_shop_name,.bloc_shop_address,.bloc_product_name,.bloc_product_img,.bloc_pastille_img,.bloc_price,.bloc_cta,.bloc_pnns,.bloc_product_validity,.bloc_cta_content,.bloc_ens{
+    position:absolute;
+    width: 95%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.operation_name,.period,.shop_logo,.shop_name,.shop_address,.product_name,.pastille_img,.cta_content,.pnns,.product_validity,.product_img,.price_final,.price_all {
+    margin:auto;
+    text-align: center;
+}
+
+.banner {
+    position:relative;
+    border: 1px solid black;
+    background-color:white;
+}
+
+.bloc_bg_header {
+    position: absolute;
+    z-index: 0;
+    background-image:url("https://cdn.acotedemoi.com/monoprix/0-config/bg_header/bg_header.jpg");
+    background-size:cover;
+}
+
+.banner {
+    width: 298px;
+    height: 248px;
+}
+
+.bloc_bg_header {
+    width: 298px;
+    height: 49px;
+}
+
+.bloc_shop_logo {
+    width: 82px;
+    left: 4px;
+    height: 38px;
+    top: 5px;
+    z-index: 1;
+}
+
+.shop_logo {
+    max-width: 82px;
+    max-height: 38px;
+}
+
+.bloc_operation {
+    top:49px;
+    height:21px;
+    background-color:  #fd323d;
+    width: 100%;
+}
+
+.operation_name {
+    display: none;
+}
+
+.bloc_period {
+    width: 100%;
+    height: 21px;
+    display: flex;
+}
+
+.period {
+    font-size:13px;
+    font-weight:bold;
+    color:#ffffff;
+    text-transform:uppercase;
+    padding: 0 2px;
+}
+
+.bloc_shop_name{
+    top: 7px;
+    height:17px;
+    left:93px;
+    width:200px;
+    z-index: 1;
+}
+
+.shop_name{
+    font-size:12px;
+    font-weight:bold;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+.bloc_shop_address{
+    top:20px;
+    height:23px;
+    left:93px;
+    width:200px;
+    z-index: 1;
+}
+
+.shop_address{
+    font-size:10px;
+    top:0;
+    color:#000000;
+}
+
+.bloc_cta{
+    width: 115px;
+    height: 30px;
+    background-color: #fd323d;
+    top: 203px;
+    left: 91px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    z-index: 90;
+    justify-content: center;
+}
+
+.bloc_cta_content{
+    height: 60%;
+    width: 95%;
+    position: relative;
+}
+
+.cta_content{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.bloc_ens{
+    width: 298px;
+    height: 178px;
+    background-image:url("image_300x182.jpg");
+    top: 70px;
+}
+
+.ens{
+    max-width: 300px;
+    max-height: 180px;
+    margin: auto;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* CSS pour IE versions 10, 11 et Edge */
+    .bloc_period{
+        align-items: center;
+    }
+}

@@ -1,0 +1,265 @@
+p{
+    visibility: hidden;
+}
+
+.bloc_body {
+    margin:0;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.a_ct {
+    text-decoration:none;
+    color:black;
+}
+
+.bloc_shop_logo,.bloc_operation,.bloc_shop_name,.bloc_shop_address,.bloc_product_name,.bloc_product_img,.bloc_pastille_img,.bloc_price,.bloc_cta,.bloc_pnns,.bloc_product_validity,.bloc_cta_content,.bloc_ens{
+    position:absolute;
+    width: 95%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.operation_name,.period,.shop_logo,.shop_name,.shop_address,.product_name,.pastille_img,.cta_content,.pnns,.product_validity,.product_img,.price_final,.price_all {
+    margin:auto;
+    text-align: center;
+}
+
+.banner {
+    position:relative;
+    border: 1px solid black;
+    background-color:white;
+}
+
+.bloc_bg_header {
+    position: absolute;
+    z-index: 0;
+    background-image:url("https://cdn.acotedemoi.com/monoprix/0-config/bg_header/bg_header.jpg");
+    background-size:cover;
+}
+
+img{
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.banner {
+    width:298px;
+    height:248px;
+}
+.bloc_bg_header {
+    width: 298px;
+    height: 48px;
+}
+
+.bloc_shop_logo {
+    width: 82px;
+    text-align: center;
+    left: 4px;
+    height: 38px;
+    top: 5px;
+    z-index: 1;
+}
+
+.shop_logo {
+    max-width: 82px;
+    max-height: 38px;
+}
+
+.bloc_operation {
+    margin: 0 auto;
+    top: 48px;
+    height:32px;
+    background-color:  #fd323d;
+    width: 100%;
+    display: block;
+}
+
+.bloc_operation_name{
+    height: 16px;
+    margin-top: 2px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+}
+
+.operation_name {
+    font-size:12px;
+    font-weight:bold;
+    color:#ffffff;
+    text-transform:uppercase;
+    margin: 0 auto;
+}
+.bloc_period{
+    height: 13px;
+    width: 100%;
+    margin-top: -2px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+}
+.period {
+    font-size:11px;
+    font-weight:lighter;
+    color:#ffffff;
+    text-transform:uppercase;
+    margin: 0 auto;
+}
+
+.bloc_shop_name{
+    top: 7px;
+    height:17px;
+    left:93px;
+    width:200px;
+    z-index: 1;
+}
+
+.shop_name{
+    font-size:12px;
+    font-weight:bold;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+.bloc_shop_address{
+    top:20px;
+    height:23px;
+    left:93px;
+    width:200px;
+    z-index: 1;
+}
+
+.shop_address{
+    font-size:10px;
+    top:0;
+    color:#000000;
+    line-height: 10px;
+}
+
+.bloc_picto_origin{
+    width: 152px;
+    height: 15px;
+    z-index: 9;
+    left: 2px;
+    position: absolute;
+    top: 80px;
+}
+
+.picto_origin{
+    font-size: 14px;
+    font-family: 'Interstate Regular Compressed', 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.picto_origin span{
+    background-color: #ffffff;
+    white-space:pre-wrap;
+}
+
+.bloc_product_name {
+    top:92px;
+    height:24px;
+    width:136px;
+    right:4px;
+}
+
+.product_name {
+    font-size:11px;
+    font-weight:400;
+    text-transform:uppercase;
+    line-height: 11px;
+}
+
+.bloc_product_img {
+    top: 83px;
+    width:154px;
+    height:130px;
+    right:144px;
+}
+
+.product_img {
+    max-height: 130px;
+    max-width: 154px;
+}
+
+.bloc_product_validity {
+    width: 160px;
+    height: 16px;
+    top: 213px;
+    left: 2px;
+}
+
+.product_validity {
+    color: #000000;
+    font-size: 8px;
+}
+
+.pastille_img {
+    position: relative;
+    max-height: 100%;
+    min-height: 47px;
+    max-width: 136px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* CSS pour IE versions 10, 11 et Edge */
+    .pastille_img {
+        max-height: 67px;
+    }
+}
+.bloc_price {
+    top: 118px;
+    height: 89px;
+    width: 136px;
+    text-align: center;
+    font-size: 17px;
+    left: 159px;
+}
+.price_all{
+    display: none;
+}
+
+.bloc_pnns {
+    top:226px;
+    height:21px;
+    width: 161px;
+    left: 3px;
+}
+.bloc_cta{
+    width: 115px;
+    height: 30px;
+    background-color: #fd323d;
+    top: 211px;
+    right: 13px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    justify-content: center;
+}
+.bloc_cta_content{
+    height: 60%;
+    width: 95%;
+    position: relative;
+}
+.cta_content{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pnns {
+    font-size: 7px;
+    font-weight: 700;
+    color: black;
+    line-height: 7px;
+}
