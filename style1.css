@@ -1,0 +1,48 @@
+p
+{
+   width: 350px;
+   border: 1px solid black;
+   text-align: justify;
+   padding: 12px;
+   margin: 50px; /* Marge extérieure de 50px */
+}
+p
+{
+    width: 50%;
+}
+p
+{
+    width: 250px;
+    height: 110px;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: auto;
+}
+h1
+{
+    color: red;
+}
+}
+h2
+{
+    color: red;
+}
+body
+{
+    background-image: url("img/logo.png");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top right; /* Le fond sera placé en haut à droite */
+}
+h2
+{
+    color: red;
+}
+p
+{
+    width: 250px;
+    height: 110px;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: auto;
+}

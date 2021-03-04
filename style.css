@@ -2,3 +2,27 @@ body
 {
     background-image: url("img/b.png");
 }
+.title
+{
+    color: red;
+}
+.title
+{
+    border: 3px black double;
+}
+h1
+{
+    border: 3px black groove;
+}
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
