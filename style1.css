@@ -46,3 +46,43 @@ p
     border: 1px solid black;
     overflow: auto;
 }
+#menu
+{
+	border-right:1px solid black;
+	background:white;
+	height: 100%;
+	position:fixed;
+	width:200px;
+	top:60px;
+	left:0px;
+	
+}
+#menu>a
+{
+		display:block;
+
+}
+
+
+#header
+{
+	border-bottom:1px solid black;
+	background:white;
+	height:60px;
+	position:fixed;
+	width:100%;
+	top:0px;
+	left:0px;
+	z-index:2
+}
+
+#content
+{
+	background:white;
+	position:absolute;
+	left:220px;
+	top:60px;
+	right:0px;
+	z-index:1
+
+}
